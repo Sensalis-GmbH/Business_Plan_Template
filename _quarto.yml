@@ -1,0 +1,35 @@
+project:
+  type: book
+
+book:
+  title: "Business_Template"
+  author: "Norah Jones"
+  date: "13.5.2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - executive_summary.qmd
+    - company_overview.qmd
+    - products_and_services.qmd
+    - market_analysis.qmd
+    - marketing_and_sales.qmd
+    - operations.qmd
+    - management.qmd
+    - financial_projections.qmd
+    - risk_mitigation.qmd
+    - milestones_and_exit.qmd
+    - summary.qmd
+    - references.qmd
+
+
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
